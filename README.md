@@ -1,5 +1,5 @@
-# Pesponsive mount
-Project related to the discipline of Internet III (UFPB)
+# About
+Proposal for assembling a responsive mobile interface. Project related to the discipline of Internet III (UFPB)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
