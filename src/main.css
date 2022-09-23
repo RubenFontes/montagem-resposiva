@@ -4,31 +4,29 @@
     margin: 0;
     padding: 0;
 }
-html {
+html{
     scroll-behavior: smooth;
 }
 body{
     font-family: 'Roboto', Helvetica, sans-serif, Arial;
     overflow-x: hidden;
+    color: white;
     scrollbar-width: none;
 }
-::-webkit-scrollbar {
+::-webkit-scrollbar{
     display: none;
 }
 #carouselExampleControls{
     max-height: 90vh;
-    z-index: 0;
 }
 .carousel-item{
     max-height: 90vh;
     filter: brightness(0.8);
 }
-
 header{
     position: absolute;
     top: 0;
     width: 100%;
-    color: white;
     padding: 2.5rem;
 }
 nav{
@@ -57,7 +55,6 @@ a:hover{
     position: absolute;
     left: 50px;
     text-decoration: none;
-    color: white;
 }
 .social-icons{
     position: absolute;
@@ -66,9 +63,7 @@ a:hover{
 .social-icons img{
     max-width: 28px;
 }
-
 .content{
-    color: white;
     position: absolute;
     text-align: center;
     top: 50%;
@@ -88,8 +83,8 @@ a:hover{
     padding: 12px 44px;
     font-weight: 900;
     background-color: inherit;
-    color: white;
     cursor: pointer;
+    color: white;
     border: 2px solid white;
     font-size: 11px;
     text-transform: uppercase;
@@ -123,6 +118,7 @@ section div p{
     font-size: 1vw;
     font-weight: 500;
     margin: 0 30px;
+    color: black;
 }
 img{
     width: 24vw;
@@ -149,7 +145,6 @@ section{
         line-height: 62px;
     }
     .content p{
-        font-family: 'Times New Roman', Times, serif;
         font-size: calc(0.5vw + 1.2vh);
         margin: 16px;
     }
@@ -181,7 +176,6 @@ section{
         max-width: 12px;
     }
     .content{
-        color: white;
         position: absolute;
         text-align: center;
         top: 50%;
@@ -201,7 +195,6 @@ section{
     .content button{
         padding: 4px 16px;
         background-color: inherit;
-        color: white;
         cursor: pointer;
         border: 1px solid white;
         font-size: 6px;
@@ -226,6 +219,7 @@ section{
 }
 
 @media (max-width: 280px) {
+    
     li{
         font-size: 6px;
         margin: 0.4rem;
@@ -241,7 +235,6 @@ section{
         max-width: 8px;
     }
     .content{
-        color: white;
         position: absolute;
         text-align: center;
         top: 50%;
@@ -262,7 +255,6 @@ section{
     .content button{
         padding: 2px 12px;
         background-color: inherit;
-        color: white;
         cursor: pointer;
         border: 1px solid white;
         font-size: 4px;
